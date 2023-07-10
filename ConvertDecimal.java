@@ -2,7 +2,7 @@
 
 public class ConvertDecimal {
 
-    public static String convertDecimal(String userInput) {
+    public static void convertDecimal(String userInput) {
 
         String result = "";
 
@@ -11,6 +11,6 @@ public class ConvertDecimal {
             result += (int)userInput.charAt(i) + " ";
         }
 
-        return result;
+        System.out.println(result);
     }
 }

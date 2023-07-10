@@ -24,7 +24,7 @@ public class ConvertOctal {
         return octalString;
     }
 
-    public static String decimalToOctal(String decimalString)
+    public static void decimalToOctal(String decimalString)
     {
         String hex = "";
 
@@ -40,6 +40,6 @@ public class ConvertOctal {
             hex += part + " ";
         }
 
-        return hex;
+        System.out.println(hex);
     }
 }

@@ -39,7 +39,7 @@ public class ConvertHexadecimal {
 
     }
 
-    public static String AsciiToHexa(String ascii)
+    public static void AsciiToHexa(String ascii)
     {
         String hex = "";
 
@@ -55,6 +55,6 @@ public class ConvertHexadecimal {
             hex += part + " ";
         }
 
-        return hex;
+        System.out.println(hex);
     }
 }

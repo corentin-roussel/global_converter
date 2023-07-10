@@ -7,16 +7,16 @@ public class GlobalConverter {
             switch(args[0])
             {
                 case "-d":
-                    System.out.println(ConvertDecimal.convertDecimal(args[1]));
+                    ConvertDecimal.convertDecimal(args[1]);
                     break;
                 case "-h":
-                    System.out.println(ConvertHexadecimal.AsciiToHexa(args[1]));
+                    ConvertHexadecimal.AsciiToHexa(args[1]);
                     break;
                 case "-o":
-                    System.out.println(ConvertOctal.decimalToOctal(args[1]));
+                    ConvertOctal.decimalToOctal(args[1]);
                     break;
                 case "-b":
-                    System.out.println();
+                    ConvertBinary.stringToDecimal(args[1]);
                     break;
                 default:
                     System.out.println("Please choose a correct translating language (-d, -h, -o, -b) this argument needs to be first (Example: java GlobalConverter -h \"Hello\")");

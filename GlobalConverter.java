@@ -6,15 +6,19 @@ public class GlobalConverter {
         {
             switch(args[0])
             {
+                case "decimal":
                 case "-d":
                     ConvertDecimal.convertDecimal(args[1]);
                     break;
+                case "hexadecimal":
                 case "-h":
                     ConvertHexadecimal.AsciiToHexa(args[1]);
                     break;
+                case "octal":
                 case "-o":
                     ConvertOctal.decimalToOctal(args[1]);
                     break;
+                case "binary":
                 case "-b":
                     ConvertBinary.stringToDecimal(args[1]);
                     break;

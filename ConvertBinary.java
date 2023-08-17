@@ -35,10 +35,8 @@ public class ConvertBinary {
             int temp = (int)argChar;
             
             String binary = decToBinary(temp);
-
-            System.out.println(binary);
       
-            if(binary.length() == 7)
+            if(binary.length() == 6)
             {
                 binaryString += '0' + binary + ' ' ;
             }else {

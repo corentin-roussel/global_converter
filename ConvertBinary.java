@@ -2,6 +2,8 @@ public class ConvertBinary {
     
     public static String decToBinary(int n)
     {
+        //conversion
+
         int[] binaryNum = new int[1000];
 
         int i = 0;
